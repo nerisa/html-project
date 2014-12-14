@@ -12,7 +12,6 @@
 	height:51px;
 	margin-top:15px;
 	position:relative;
-	
 }
 .menu-wrapper ul li a{
 	display:block;
@@ -30,14 +29,13 @@
 	padding-top:15px;
 }
 .menu-wrapper ul li ul{
-	//display:none;
-	
+	display:none;
 	position:absolute;
 	background:#594e4e;
-	border:1px solid black;
 	padding-top:5px;
 	padding-bottom:10px;
 	top:75px;
+	height:auto;
 }
 
 .menu-wrapper ul li ul li{
@@ -46,7 +44,6 @@
 	width:auto !important;
 	margin-top:2px;
 	height:28px;
-	
 }
 .menu-wrapper ul li ul li a{
 	font-size:15px;
@@ -54,7 +51,28 @@
 	height:28px;
 	padding:0px 10px;
 	display:block;
-	background-color:red;
+	background-color:#5a93e9;
 	
+}
+.menu-wrapper ul li:active ul{
+	display:block;
+}
+
+.footer-menu-wrapper ul{
+	list-style-type:none;
+}
+.footer-menu-wrapper ul li {
+	line-height: 20px;
+	margin-right:10px;
+	font-size: 10px;
+	float: left;
+
+}
+.footer-menu-wrapper ul li a {
+	text-decoration: none;
+	color:#666666;
+}
+.footer-menu-wrapper ul li:active a{
+	color:#3794a5;
 }
 	

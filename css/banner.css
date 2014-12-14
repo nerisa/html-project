@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slider{
+	position:relative;
+	overflow:hidden;
+	//width:1009px;
+	height:191px;
+}
+.slider ul{
+	list-style:none;
+}
+.slider ul li{
+	float:left;
+}
+.slider ul li span img{
+	position:absolute;
+	width:1009px;
+	height:191px;
+	bottom:0px;
+	left:0px;
+}
+
+.slider span{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	padding:15px 22px;
+	display:block;
+	width:965px;
+	height:40px;
+	font-size:38px;
+	color:#FFFFFF;
+	background:#d73c77;
+	opacity:0.8;
+}
+
+	
+
+	
